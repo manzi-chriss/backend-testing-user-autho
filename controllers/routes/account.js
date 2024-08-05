@@ -1,4 +1,4 @@
-const { User } = require('../../model/user');
+const { User } = require('../../model/User');
 const { verifyToken } = require('../middlewares/Token_verification');
 const {extractUserIdFromToken}=require('../Utils/extracters')
 const router = require('express').Router();
